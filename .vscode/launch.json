@@ -5,16 +5,11 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Debug SquadJS Dev",
-            "cwd": "${workspaceFolder}/",
-            "program": "${workspaceFolder}/index.js",
-            "args": ["config.dev.json"],
+            "command": "nvm use v18.20.2 && yarn start config.dev.json",
+            "name": "Debug SquadJS (Dev)",
             "request": "launch",
-            "skipFiles": [
-                "<node_internals>/**"
-            ],
-            "type": "node",
-            "runtimeExecutable": "${userHome}/.nvm/versions/node/v18.20.2/bin/node"
+            "type": "node-terminal",
+            "cwd": "${workspaceRoot}"
         },
     ]
 }
