@@ -5,7 +5,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "command": "nvm use v18.20.2 && yarn start config.dev.json",
+            "command": "nvm use v18.20.2 && yarn start ./configs/config.dev.json",
             "name": "Debug SquadJS (Dev)",
             "request": "launch",
             "type": "node-terminal",
